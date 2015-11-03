@@ -1,0 +1,38 @@
+{
+  "name": "hrm-web",
+  "version": "0.0.1",
+  "description": "A collection of Human Resource Machine tools for the browser",
+  "main": "hrm-web.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nrkn/hrm-web.git%22.git"
+  },
+  "keywords": [
+    "human",
+    "resouce",
+    "machine",
+    "hrm",
+    "web",
+    "browser"
+  ],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrkn/hrm-web.git%22/issues"
+  },
+  "homepage": "https://github.com/nrkn/hrm-web.git%22#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "babelify": "^6.1.0",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "hrm-cpu": "^0.2.2",
+    "hrm-draw": "^0.1.7",
+    "hrm-image-decoder": "^0.1.1",
+    "hrm-image-encoder": "^0.1.2",
+    "hrm-level-data": "^1.1.0",
+    "hrm-parser": "^0.1.5"
+  }
+}

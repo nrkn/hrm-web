@@ -1,0 +1,36 @@
+<meta charset="utf-8" />
+<script src="polyfills.js"></script>
+<script src="../hrm-web.js"></script>
+<script>
+  (function(){
+    'use strict'
+    
+    var Cpu = hrm.cpu
+    
+    var testCpu = Cpu( 'INBOX OUTBOX INBOX OUTBOX INBOX OUTBOX', [ 1, 9, 4 ] )
+    
+    console.log( testCpu.run() )
+    
+    var Canvas = hrm.draw.Canvas
+    
+    var canvas = Canvas()
+    
+    canvas.text( 'Hello\nWorld!' )
+    
+    console.log( canvas.toImage() )
+    
+    console.log( hrm.levelData )
+    
+    console.log( hrm.parser( 'INBOX OUTBOX INBOX OUTBOX INBOX OUTBOX' ) )
+    
+    var encode = hrm.imageEncoder
+    
+    console.log( encode( [ [ [ 1, 2 ], [ 1, 2 ] ] ] ) )
+    
+    var decode = hrm.imageDecoder
+    
+    console.log( decode( 'eJztjjGKwzAQRQdcaostXGaJmq2MwVWqBMa9cbFVmoAglZtU7lREdXCRPhjmBL6C5ig+yn6tfIolHwZm9P/MU0dEWrDRQnu0JCUbKXOvBdVSUp16W7FZ96m0t1X21z3Vtsq+O7BxB+2l3bwO2Q7Zc57d1e7cdT3RgMxNex7XE492Jzc2NGAXfmaqbz444g/+84tj+Fb/997IpI1bwIl0hN+6RVqZ6KgeXJ/8jRvB9eB6vchkz2EOP2HWC/aSBtwbOPKY53BH7oEbT5nc0y36APOeKnPlpV5eYc79duOtt/6RfgF3WGZf;' ) )
+    
+    
+  })()
+</script>
