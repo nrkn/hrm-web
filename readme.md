@@ -1,4 +1,4 @@
-# hrm-cpu
+# hrm-web
 ## A collection of Human Resource Machine tools for the browser
 
 [Human Resource Machine](http://tomorrowcorporation.com/humanresourcemachine)
