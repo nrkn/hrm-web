@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "hrm-cpu": "^0.2.2",
-    "hrm-draw": "^0.1.7",
+    "hrm-draw": "^0.1.8",
     "hrm-image-decoder": "^0.1.1",
     "hrm-image-encoder": "^0.1.2",
     "hrm-level-data": "^1.1.0",
