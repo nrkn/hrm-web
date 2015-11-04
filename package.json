@@ -1,6 +1,6 @@
 {
   "name": "hrm-web",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of Human Resource Machine tools for the browser",
   "main": "hrm-web.js",
   "repository": {
@@ -34,5 +34,6 @@
     "hrm-image-encoder": "^0.1.2",
     "hrm-level-data": "^1.1.0",
     "hrm-parser": "^0.1.5"
-  }
+  },
+  "scripts": {}
 }
