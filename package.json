@@ -28,12 +28,12 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "dependencies": {
-    "hrm-cpu": "^0.2.2",
+    "hrm-cpu": "^0.2.3",
     "hrm-draw": "^0.1.8",
     "hrm-image-decoder": "^0.1.1",
     "hrm-image-encoder": "^0.1.2",
     "hrm-level-data": "^1.1.0",
-    "hrm-parser": "^0.1.5"
+    "hrm-parser": "^0.2.0"
   },
   "scripts": {}
 }
